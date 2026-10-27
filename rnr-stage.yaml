@@ -16,10 +16,14 @@ modules:
   flopr:       {source_files: [Resettable_FF/rtl.sv]}
   flopenr:     {source_files: [Resettable_En_FF/rtl.sv]}
   adder:       {source_files: [Adder/rtl.sv]}
+<<<<<<< HEAD
   mux2:
     source_files: [2to1_Multiplexer/rtl.sv]
     top_module: MUX_2_1
     ports: {d0: a, d1: b}
+=======
+  mux2:        {source_files: [2to1_Multiplexer/rtl.sv]}
+>>>>>>> cb45fd521c5e99c09a2445571d729ac06a55faf3
   imem:        {source_files: [IMEM/rtl.sv]}
   regfile:     {source_files: [Register_File/rtl.sv]}
   extend:      {source_files: [Sign_Extender/rtl.sv]}
